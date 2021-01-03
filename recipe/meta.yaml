@@ -69,6 +69,10 @@ extra:
   recipe-maintainers:
     - conda-forge/r
     - coatless
+    - eddelbuettel
+    - rcurtin
+    - zoq
+    - Yashwants19
 
 # Package: RcppEnsmallen
 # Title: Header-Only C++ Mathematical Optimization Library for 'Armadillo'
