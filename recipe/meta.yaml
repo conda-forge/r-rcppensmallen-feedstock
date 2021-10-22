@@ -1,4 +1,4 @@
-{% set version = "0.2.17.0.1" %}
+{% set version = "0.2.18.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppEnsmallen_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppEnsmallen/RcppEnsmallen_{{ version }}.tar.gz
-  sha256: 2968efd954c755484e139ae35f9f1d1b7ed3b9d1e734a71e23c62e49d4fcbbff
+  sha256: d16f95711489ccc7ff67bd041154ee0e08af8062469e3b588a439caf13e4a958
 
 build:
   merge_build_host: true  # [win]
