@@ -1,11 +1,22 @@
+About r-rcppensmallen-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppensmallen-feedstock/blob/main/LICENSE.txt)
+
 About r-rcppensmallen
-=====================
+---------------------
 
 Home: https://github.com/coatless/rcppensmallen, https://github.com/mlpack/ensmallen, http://ensmallen.org/
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppensmallen-feedstock/blob/main/LICENSE.txt)
+Summary: 'Ensmallen' is a templated C++ mathematical optimization library (by the 'MLPACK' team) that provides a simple set of abstractions for writing an objective function to optimize. Provided within are various standard and cutting-edge optimizers that include full-batch gradient descent techniques, small-batch techniques, gradient-free optimizers, and constrained optimization. The 'RcppEnsmallen' package includes the header files from the 'Ensmallen' library and pairs the appropriate header files from 'armadillo' through the 'RcppArmadillo' package. Therefore, users do not need to install 'Ensmallen' nor 'Armadillo' to use 'RcppEnsmallen'. Note that 'Ensmallen' is licensed under 3-Clause BSD, 'Armadillo' starting from 7.800.0 is licensed under Apache License 2, 'RcppArmadillo' (the 'Rcpp' bindings/bridge to 'Armadillo') is licensed under the GNU GPL version 2 or later. Thus, 'RcppEnsmallen' is also licensed under similar terms. Note that 'Ensmallen' requires a compiler that supports 'C++11' and 'Armadillo' 8.400 or later.
+About r-rcppensmallen
+---------------------
+
+Home: https://github.com/coatless/rcppensmallen, https://github.com/mlpack/ensmallen, http://ensmallen.org/
+
+Package license: GPL-2.0-or-later
 
 Summary: 'Ensmallen' is a templated C++ mathematical optimization library (by the 'MLPACK' team) that provides a simple set of abstractions for writing an objective function to optimize. Provided within are various standard and cutting-edge optimizers that include full-batch gradient descent techniques, small-batch techniques, gradient-free optimizers, and constrained optimization. The 'RcppEnsmallen' package includes the header files from the 'Ensmallen' library and pairs the appropriate header files from 'armadillo' through the 'RcppArmadillo' package. Therefore, users do not need to install 'Ensmallen' nor 'Armadillo' to use 'RcppEnsmallen'. Note that 'Ensmallen' is licensed under 3-Clause BSD, 'Armadillo' starting from 7.800.0 is licensed under Apache License 2, 'RcppArmadillo' (the 'Rcpp' bindings/bridge to 'Armadillo') is licensed under the GNU GPL version 2 or later. Thus, 'RcppEnsmallen' is also licensed under similar terms. Note that 'Ensmallen' requires a compiler that supports 'C++11' and 'Armadillo' 8.400 or later.
 
@@ -27,38 +38,38 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_r_base4.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11034&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppensmallen-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>linux_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11034&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppensmallen-feedstock?branchName=main&jobName=linux&configuration=linux_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppensmallen-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.2" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_r_base4.1</td>
+              <td>linux_64_r_base4.3</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11034&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppensmallen-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppensmallen-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>osx_64_r_base4.2</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11034&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppensmallen-feedstock?branchName=main&jobName=osx&configuration=osx_64_r_base4.2" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppensmallen-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.2" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_r_base4.3</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11034&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppensmallen-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_r_base4.3" alt="variant">
                 </a>
               </td>
             </tr><tr>
               <td>win_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11034&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppensmallen-feedstock?branchName=main&jobName=win&configuration=win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-rcppensmallen-feedstock?branchName=main&jobName=win&configuration=win%20win_64_" alt="variant">
                 </a>
               </td>
             </tr>
