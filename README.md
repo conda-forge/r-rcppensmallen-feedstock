@@ -3,14 +3,24 @@ About r-rcppensmallen-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppensmallen-feedstock/blob/main/LICENSE.txt)
 
+
 About r-rcppensmallen
 ---------------------
 
-Home: https://github.com/coatless-rpkg/rcppensmallen, https://github.com/mlpack/ensmallen, https://ensmallen.org/
+Home: https://github.com/coatless/rcppensmallen, https://github.com/mlpack/ensmallen, http://ensmallen.org/
 
 Package license: GPL-2.0-or-later
 
-Summary: 'Ensmallen' is a templated C++ mathematical optimization library (by the 'MLPACK' team) that provides a simple set of abstractions for writing an objective function to optimize. Provided within are various standard and cutting-edge optimizers that include full-batch gradient descent techniques, small-batch techniques, gradient-free optimizers, and constrained optimization. The 'RcppEnsmallen' package includes the header files from the 'Ensmallen' library and pairs the appropriate header files from 'armadillo' through the 'RcppArmadillo' package. Therefore, users do not need to install 'Ensmallen' nor 'Armadillo' to use 'RcppEnsmallen'. Note that 'Ensmallen' is licensed under 3-Clause BSD, 'Armadillo' starting from 7.800.0 is licensed under Apache License 2, 'RcppArmadillo' (the 'Rcpp' bindings/bridge to 'Armadillo') is licensed under the GNU GPL version 2 or later. Thus, 'RcppEnsmallen' is also licensed under similar terms. Note that 'Ensmallen' requires a compiler that supports 'C++11' and 'Armadillo' 9.800 or later.
+Summary: 'Ensmallen' is a templated C++ mathematical optimization library (by the 'MLPACK' team) that provides a simple set of abstractions for writing an objective function to optimize. Provided within are various standard and cutting-edge optimizers that include full-batch gradient descent techniques, small-batch techniques, gradient-free optimizers, and constrained optimization. The 'RcppEnsmallen' package includes the header files from the 'Ensmallen' library and pairs the appropriate header files from 'armadillo' through the 'RcppArmadillo' package. Therefore, users do not need to install 'Ensmallen' nor 'Armadillo' to use 'RcppEnsmallen'. Note that 'Ensmallen' is licensed under 3-Clause BSD, 'Armadillo' starting from 7.800.0 is licensed under Apache License 2, 'RcppArmadillo' (the 'Rcpp' bindings/bridge to 'Armadillo') is licensed under the GNU GPL version 2 or later. Thus, 'RcppEnsmallen' is also licensed under similar terms. Note that 'Ensmallen' requires a compiler that supports 'C++11' and 'Armadillo' 8.400 or later.
+
+About r-rcppensmallen
+---------------------
+
+Home: https://github.com/coatless/rcppensmallen, https://github.com/mlpack/ensmallen, http://ensmallen.org/
+
+Package license: GPL-2.0-or-later
+
+Summary: 'Ensmallen' is a templated C++ mathematical optimization library (by the 'MLPACK' team) that provides a simple set of abstractions for writing an objective function to optimize. Provided within are various standard and cutting-edge optimizers that include full-batch gradient descent techniques, small-batch techniques, gradient-free optimizers, and constrained optimization. The 'RcppEnsmallen' package includes the header files from the 'Ensmallen' library and pairs the appropriate header files from 'armadillo' through the 'RcppArmadillo' package. Therefore, users do not need to install 'Ensmallen' nor 'Armadillo' to use 'RcppEnsmallen'. Note that 'Ensmallen' is licensed under 3-Clause BSD, 'Armadillo' starting from 7.800.0 is licensed under Apache License 2, 'RcppArmadillo' (the 'Rcpp' bindings/bridge to 'Armadillo') is licensed under the GNU GPL version 2 or later. Thus, 'RcppEnsmallen' is also licensed under similar terms. Note that 'Ensmallen' requires a compiler that supports 'C++11' and 'Armadillo' 8.400 or later.
 
 Current build status
 ====================
@@ -145,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
